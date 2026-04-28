@@ -27,8 +27,8 @@ public class Main {
     public static void mostrarTareas(List<String> lista) {
         System.out.println("\n ====== Lista de Tareas ====== ");
 
-        for (int i = 0; i < lista.size(); i ++) {
-            System.out.println((i + 1) + "." + lista.get(i));
+        for (String l : lista) {
+            System.out.println("- " + l);
         }
     }
 
@@ -47,8 +47,8 @@ public class Main {
 
         System.out.println("\n ====== Lista de Tareas Pendientes ====== ");
 
-        for (int i = 0; i < lista.size(); i ++) {
-            System.out.println((i + 1) + "." + lista.get(i));
+        for (String l : lista) {
+            System.out.println("- " + l);
         }
     }
 }
